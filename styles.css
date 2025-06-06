@@ -1,1 +1,63 @@
-/*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#submit {
+  width: 120px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #0056b3;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-striped tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table th, .table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.delete {
+  background-color: transparent;
+  color: red;
+  border: none;
+  cursor: pointer;
+}
